@@ -25,9 +25,9 @@ plt.rc('axes', prop_cycle=(cycler('color', mglearn.plot_helpers.cm_cycle.colors)
 np.set_printoptions(precision=3, suppress=True)
 
 pd.set_option("display.max_columns", 8)
-pd.set_option('precision', 2)
+# pd.set_option('precision', 2)
 
-np, mglearn
+# np, mglearn
 
 # Prints outputs in cells so that we don't have to write print() every time 
 #InteractiveShell.ast_node_interactivity = "all"
